@@ -12,6 +12,7 @@ class Scene02 extends Phaser.Scene{
       loop: true
     })
     this.fundo = this.add.image(0,0,'fundo').setOrigin(0,0)
+    this.fundo.alpha = .5
     this.left = this.physics.add.image(60,700/2,'left')
     this.rigth = this.physics.add.image(440,700/2,'rigth')
 //COIN==================================
