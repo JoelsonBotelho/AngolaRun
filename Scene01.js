@@ -16,10 +16,10 @@ class Scene01 extends Phaser.Scene{
       allowGravity: false,
       immovable: true
     })
-    let insignia = this.insignia.create(135,-10000,'insignia').setScale(0.15,0.10)
+    let insignia = this.insignia.create(135,-1000000,'insignia').setScale(0.15,0.10)
       insignia.speed = 5
-      insignia.minY = -10000
-      insignia.maxY = 720
+      insignia.minY = -100000
+      insignia.maxY = 100000
     this.coins = this.physics.add.group({
       allowGravity: false,
       immovable: true
