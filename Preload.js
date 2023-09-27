@@ -30,8 +30,7 @@ class Preload extends Phaser.Scene{
         start: 16,
         end: 19
       }),
-      frameRate: 8,
-      repeat: -1
+      frameRate: 8
     })
     this.anims.create({
       key: 'lados',
@@ -39,8 +38,7 @@ class Preload extends Phaser.Scene{
         start: 8,
         end: 11
       }),
-      frameRate: 8,
-      repeat: -1
+      frameRate: 8
     })
     this.scene.start('StartScene')
   }
